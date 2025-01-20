@@ -26,4 +26,4 @@ jobs:
         python-version: "3.7"
     - name: Run charge Report
       run: |
-        python weather_report.py
+        python charge.py
