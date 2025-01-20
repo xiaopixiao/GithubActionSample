@@ -16,6 +16,7 @@ end_name = '","userId"'
 def run():
     if not os.path.exists(log_file_path):
         print('no log file')
+        return
     else:
         with open(log_file_path, 'r', encoding='utf-8') as file:
             for line in file:
@@ -35,6 +36,7 @@ def run():
         # 输出变量值
         if variable_value is None:
             print(f"未找到变量 {variable_name}")
+            return
     
     t = eval(variable_value)
     
