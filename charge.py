@@ -2,7 +2,7 @@ import os
 import urllib.parse
 from time import sleep
 
-log_file_path = r'C:\Users\Administrator\Desktop\charge.log'
+log_file_path = r'charge.log'
 
 variable_name = '"channelMap"'
 variable_value = None
