@@ -33,10 +33,7 @@ def run():
                     name_value = line[start_index_name:end_index_name]
                     break
     
-        # 输出变量值
-        if variable_value is None:
-            print(f"未找到变量 {variable_name}")
-            return
+
     
     t = eval(variable_value)
     
